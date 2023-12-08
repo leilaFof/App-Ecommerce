@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-     "start":"cls && nodemon index.js",
+    "start": "cls && nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "crypto-js": "^4.2.0",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.0.2"
   }
 }
